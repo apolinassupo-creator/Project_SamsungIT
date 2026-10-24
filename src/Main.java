@@ -132,6 +132,7 @@ public class Main {
                         } else {
                             System.out.println("Приходи в другой раз, дружище");
                         }
+                        break;
                     }
                     if (person.getLive() < 0) {
                         System.out.println("Закончились жизни. Ты лох " +"\uD83D\uDE1D");

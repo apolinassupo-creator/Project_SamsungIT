@@ -75,7 +75,7 @@ public class BigMonster extends MonsterSmall {
 
             double trueAnswer = Math.round((double) x1 / (x1 + y1 + z1) * 10) / 10.0;
             Scanner scanner = new Scanner(System.in);
-            float answer = scanner.nextFloat();
+            double answer = scanner.nextDouble();
 
 
             if (answer==trueAnswer) {
