@@ -60,7 +60,7 @@ public class MonsterSmall {
         else if (difficultGame == 2) {
             int question = random.nextInt(1000);
             int questions = random.nextInt(1, 10);
-            System.out.println("Решите задачу:" + question + "//" + questions + "= ");
+            System.out.println("Решите задачу(запиши только целую часть):" + question + "//" + questions + "= ");
 
             Scanner the = new Scanner(System.in);
             int use_answer = the.nextInt();
